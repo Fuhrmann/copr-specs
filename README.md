@@ -18,10 +18,15 @@ These are the available COPRs and how to use them:
 #### i3-gaps
 
 To install the most recent version of [i3-gaps](https://github.com/Airblader/i3):
+
 ```
 sudo dnf copr enable fuhrmann/i3-gaps
 sudo dnf install i3-gaps
 ```
+
+To build locally:
+
+`rpkg local --spec i3-gaps.spec`
 
 [fuhrmann/i3-gaps](https://copr.fedorainfracloud.org/coprs/fuhrmann/i3-gaps)
 
@@ -33,5 +38,9 @@ To install the most recent version of [git friendly](https://github.com/git-frie
 sudo dnf copr enable fuhrmann/git-friendly
 sudo dnf install git-friendly
 ```
+
+To build locally:
+
+`rpkg --spec git-friendly.spec`
 
 [fuhrmann/git-friendly](https://copr.fedorainfracloud.org/coprs/fuhrmann/git-friendly)
