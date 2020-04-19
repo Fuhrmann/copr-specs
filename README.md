@@ -1,4 +1,6 @@
-### Sources for my spec files
+## Sources for my spec files
+
+### Some useful links
 
 rpkg docs: https://docs.pagure.org/rpkg-util/quick_start.html#new-project
 
@@ -11,8 +13,12 @@ packaging: https://fedoraproject.org/wiki/Packaging:SourceURL
 
 ### Using my copr
 
-`sudo dnf copr enable fuhrmann/i3-gaps`
-`sudo dnf install i3-gaps`
+```
+sudo dnf copr enable fuhrmann/i3-gaps
+sudo dnf install i3-gaps
+```
 
-`sudo dnf copr enable fuhrmann/git-friendly`
-`sudo dnf install git-friendly`
+```
+sudo dnf copr enable fuhrmann/git-friendly
+sudo dnf install git-friendly
+```
