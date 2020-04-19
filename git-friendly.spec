@@ -1,10 +1,11 @@
 %define SHA256SUM0 eda37ce98ed81f14b0e500d5e7e132f04d93815ba90d63e856f464165bd60f1e
+%define debug_package %{nil}
+
 
 Name: git-friendly
 Version: 1.0.2
 Release: 1%{?dist}
 Summary: Streamline your git workflow: just type pull, branch, merge, push
-
 License: MIT
 URL: https://github.com/%{name}/%{name}/archive/%{version}.tar.gz
 Source0: https://github.com/%{name}/%{name}/archive/%{version}.tar.gz
@@ -23,6 +24,7 @@ Git sometimes requires typing two or three commands just to execute something ba
 - stash includes untracked files by default.
 
 Less time fighting Git — more time actually doing work.
+
 
 %prep
 echo "%SHA256SUM0 %SOURCE0" | sha256sum -c -
@@ -47,4 +49,5 @@ install -m 0755 stash %{buildroot}/usr/local/bin/stash
 /usr/local/bin/push
 /usr/local/bin/stash
 
+%changelog
 
