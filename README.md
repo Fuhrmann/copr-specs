@@ -23,6 +23,8 @@ sudo dnf copr enable fuhrmann/i3-gaps
 sudo dnf install i3-gaps
 ```
 
+[fuhrmann/i3-gaps](https://copr.fedorainfracloud.org/coprs/fuhrmann/i3-gaps)
+
 #### git-friendly
 
 To install the most recent version of [git friendly](https://github.com/git-friendly/git-friendly)
@@ -31,3 +33,5 @@ To install the most recent version of [git friendly](https://github.com/git-frie
 sudo dnf copr enable fuhrmann/git-friendly
 sudo dnf install git-friendly
 ```
+
+[fuhrmann/git-friendly](https://copr.fedorainfracloud.org/coprs/fuhrmann/git-friendly)
