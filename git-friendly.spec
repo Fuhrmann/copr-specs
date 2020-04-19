@@ -1,7 +1,4 @@
-%undefine _disable_source_fetch
 %define SHA256SUM0 eda37ce98ed81f14b0e500d5e7e132f04d93815ba90d63e856f464165bd60f1e
-%define debug_package %nil
-
 
 Name: git-friendly
 Version: 1.0.2
@@ -29,7 +26,7 @@ Less time fighting Git — more time actually doing work.
 
 %prep
 echo "%SHA256SUM0 %SOURCE0" | sha256sum -c -
-%setup -q
+%autosetup -n %{name}-%{version}
 
 %build
 /bin/true
