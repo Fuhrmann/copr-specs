@@ -1,8 +1,12 @@
 ### Sources for my spec files
 
 rpkg docs: https://docs.pagure.org/rpkg-util/quick_start.html#new-project
+
 rpm docs: https://rpm-packaging-guide.github.io/#preparing-software-for-packaging
+
 copr profile: https://copr.fedorainfracloud.org/coprs/fuhrmann/
+
+packaging: https://fedoraproject.org/wiki/Packaging:SourceURL
 
 
 ### Using my copr
