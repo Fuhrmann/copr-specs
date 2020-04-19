@@ -1,4 +1,3 @@
-%undefine _disable_source_fetch
 %define SHA256SUM0 686774293bfc466cfa59f7eef85df03e5301904a8e9daf4101d2cb1a112715c2
 %define debug_package %nil
 %define base_name i3
@@ -8,8 +7,8 @@ Version:        4.18
 Release:        1%{?dist}
 Summary:        i3 with more features
 License:        BSD
-URL:            https://github.com/Airblader/i3
-Source0:        https://github.com/Airblader/i3/archive/%{version}.tar.gz
+URL:            https://github.com/Airblader/%{base_name}
+Source0:        https://github.com/Airblader/%{base_name}/archive/%{version}.tar.gz
 
 BuildRequires: gcc
 BuildRequires: autoconf
@@ -67,7 +66,7 @@ Asciidoc and doxygen generated documentations for %{name}.
 
 %prep
 echo "%SHA256SUM0 %SOURCE0" | sha256sum -c -
-%setup -q
+%autosetup -n %{base_name}-%{version}
 
 # Drop /usr/bin/env lines in those which will be installed to %%_bindir.
 find . -maxdepth 1 -type f -name "i3*" -exec sed -i -e '1s;^#!/usr/bin/env perl;#!/usr/bin/perl;' {} + -print
