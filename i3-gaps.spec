@@ -1,4 +1,4 @@
-%define SHA256SUM0 686774293bfc466cfa59f7eef85df03e5301904a8e9daf4101d2cb1a112715c2
+%define SHA256SUM0 5bd49039a0b9199a08ec752164c8bca6f8bfc7f307cd60ed9b09c833a3165813
 %define debug_package %nil
 %define base_name i3
 
