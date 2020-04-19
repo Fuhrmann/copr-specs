@@ -94,10 +94,6 @@ mkdir -p %{buildroot}%{_mandir}/man1/
 install -Dpm0644 *-redhat-linux-gnu/man/*.1 \
         %{buildroot}%{_mandir}/man1/
 
-mkdir -p %{buildroot}%{_datadir}/pixmaps/
-install -Dpm0644 %{SOURCE1} \
-        %{buildroot}%{_datadir}/pixmaps/
-
 #check
 #ifnarch s390 s390x
 ## TODO: with xorg dummy to test the package.
@@ -115,7 +111,6 @@ install -Dpm0644 %{SOURCE1} \
 %{_datadir}/xsessions/%{base_name}.desktop
 %{_datadir}/xsessions/%{base_name}-with-shmlog.desktop
 %{_mandir}/man*/%{base_name}*
-%{_datadir}/pixmaps/%{base_name}-logo.svg
 %{_datadir}/applications/%{base_name}.desktop
 %exclude %{_docdir}/%{base_name}/
 
