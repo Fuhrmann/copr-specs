@@ -12,11 +12,11 @@ These are my spec files of some apps that are not available for Fedora. The spec
 * [Packaging problems and solutions](https://wiki.mageia.org/en/Packaging_problems_and_solutions)
 * [Creating a basic Spec File](https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/Packagers_Guide/sect-Packagers_Guide-Creating_a_Basic_Spec_File.html)
 
-### Available COPRs
+## Available COPRs
 
 These are the available COPRs and how to use them:
 
-#### i3-gaps
+### i3-gaps
 
 To install the most recent version of [i3-gaps](https://github.com/Airblader/i3):
 
@@ -29,11 +29,11 @@ To build locally:
 
 `rpkg local --spec i3-gaps.spec`
 
-[fuhrmann/i3-gaps](https://copr.fedorainfracloud.org/coprs/fuhrmann/i3-gaps)
+Link to COPR: [fuhrmann/i3-gaps](https://copr.fedorainfracloud.org/coprs/fuhrmann/i3-gaps)
 
 --------------
 
-#### git-friendly
+### git-friendly
 
 To install the most recent version of [git friendly](https://github.com/git-friendly/git-friendly)
 
@@ -46,7 +46,7 @@ To build locally:
 
 `rpkg --spec git-friendly.spec`
 
-[fuhrmann/git-friendly](https://copr.fedorainfracloud.org/coprs/fuhrmann/git-friendly)
+Link to COPR: [fuhrmann/git-friendly](https://copr.fedorainfracloud.org/coprs/fuhrmann/git-friendly)
 
 
 ### Useful commands
