@@ -49,7 +49,7 @@ To build locally:
 Link to COPR: [fuhrmann/git-friendly](https://copr.fedorainfracloud.org/coprs/fuhrmann/git-friendly)
 
 
-### Useful commands
+## Useful commands
 
 #### Add changelog to spec:
 
