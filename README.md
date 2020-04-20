@@ -10,7 +10,7 @@ These are my spec files of some apps that are not available for Fedora. The spec
 * [Packaging: SourceURL](https://fedoraproject.org/wiki/Packaging:SourceURL)
 * [Downloading sources at build](https://stackoverflow.com/questions/33177450/how-do-i-get-rpmbuild-to-download-all-of-the-sources-for-a-particular-spec)
 * [Packaging problems and solutions](https://wiki.mageia.org/en/Packaging_problems_and_solutions)
-
+* [Creating a basic Spec File](https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/Packagers_Guide/sect-Packagers_Guide-Creating_a_Basic_Spec_File.html)
 
 ### Available COPRs
 
