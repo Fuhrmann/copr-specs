@@ -31,6 +31,8 @@ To build locally:
 
 [fuhrmann/i3-gaps](https://copr.fedorainfracloud.org/coprs/fuhrmann/i3-gaps)
 
+--------------
+
 #### git-friendly
 
 To install the most recent version of [git friendly](https://github.com/git-friendly/git-friendly)
