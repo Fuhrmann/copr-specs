@@ -11,6 +11,7 @@ These are my spec files of some apps that are not available for Fedora. The spec
 * [Downloading sources at build](https://stackoverflow.com/questions/33177450/how-do-i-get-rpmbuild-to-download-all-of-the-sources-for-a-particular-spec)
 * [Packaging problems and solutions](https://wiki.mageia.org/en/Packaging_problems_and_solutions)
 
+
 ### Available COPRs
 
 These are the available COPRs and how to use them:
@@ -44,3 +45,13 @@ To build locally:
 `rpkg --spec git-friendly.spec`
 
 [fuhrmann/git-friendly](https://copr.fedorainfracloud.org/coprs/fuhrmann/git-friendly)
+
+
+### Useful commands
+
+#### Add changelog to spec:
+
+`rpmdev-bumpspec --comment=summary of changes --userstring="Name <email>" file.spec`
+
+#### Send build to copr project
+`rpkg build project-name --spec file.spec`
