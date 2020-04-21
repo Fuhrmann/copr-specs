@@ -48,6 +48,22 @@ To build locally:
 
 Link to COPR: [fuhrmann/git-friendly](https://copr.fedorainfracloud.org/coprs/fuhrmann/git-friendly)
 
+--------------
+
+### ctop
+
+To install the most recent version of [ctop](https://github.com/bcicen/ctop)
+
+```
+sudo dnf copr enable fuhrmann/ctop
+sudo dnf install ctop
+```
+
+To build locally:
+
+`rpkg --spec ctop.spec`
+
+Link to COPR: [fuhrmann/ctop](https://copr.fedorainfracloud.org/coprs/fuhrmann/ctop)
 
 ## Useful commands
 
