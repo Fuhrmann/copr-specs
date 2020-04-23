@@ -1,4 +1,3 @@
-%define SHA256SUM0 5891ca1525bae21d60604d1feb35a26ede0217ec02d75f5ff16febee7e9f3430
 %define debug_package %nil
 %define base_name i3
 
@@ -65,7 +64,6 @@ Requires:       %{name} = %{version}-%{release}
 Asciidoc and doxygen generated documentations for %{name}.
 
 %prep
-echo "%SHA256SUM0 %SOURCE0" | sha256sum -c -
 %autosetup -n %{base_name}-%{version}
 
 # Drop /usr/bin/env lines in those which will be installed to %%_bindir.
