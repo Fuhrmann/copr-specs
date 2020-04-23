@@ -1,10 +1,10 @@
-%define SHA256SUM0 5bd49039a0b9199a08ec752164c8bca6f8bfc7f307cd60ed9b09c833a3165813
+%define SHA256SUM0 5891ca1525bae21d60604d1feb35a26ede0217ec02d75f5ff16febee7e9f3430
 %define debug_package %nil
 %define base_name i3
 
 Name:           i3-gaps
-Version:        4.18
-Release:        1%{?dist}
+Version:        4.18.1
+Release:        4%{?dist}
 Summary:        i3 with more features
 License:        BSD
 URL:            https://github.com/Airblader/%{base_name}
@@ -116,3 +116,8 @@ install -Dpm0644 *-redhat-linux-gnu/man/*.1 \
 
 %files doc
 %doc docs/*.{html,png} pseudo-doc/doxygen/
+
+%changelog
+* Thu Apr 23 2020 Ricardo Fuhrmann <fuhrmanns+copr@gmail.com> - 4.18.1-4
+- 4.18.1
+
