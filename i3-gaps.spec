@@ -2,8 +2,8 @@
 %define base_name i3
 
 Name:           i3-gaps
-Version:        4.18.2
-Release:        5%{?dist}
+Version:        4.18.3
+Release:        6%{?dist}
 Summary:        i3 with more features
 License:        BSD
 URL:            https://github.com/Airblader/%{base_name}
@@ -116,6 +116,9 @@ install -Dpm0644 *-redhat-linux-gnu/man/*.1 \
 %doc docs/*.{html,png} pseudo-doc/doxygen/
 
 %changelog
+* Thu Oct 22 2020 Fuhrmann <fuhrmanns+copr@gmail.com> - 4.18.3-6
+- 4.18.3
+
 * Sun Jul 26 2020 Ricardo Fuhrmann <fuhrmanns+copr@gmail.com> - 4.18.2-5
 - 4.18.2
 
