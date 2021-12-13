@@ -2,8 +2,8 @@
 %define base_name i3
 
 Name:       i3-gaps
-Version:	4.19
-Release:	7%{?dist}
+Version:	4.20.1
+Release:	8%{?dist}
 Summary:	i3 with more features
 License:	BSD
 URL:        https://github.com/Airblader/%{base_name}
@@ -78,6 +78,9 @@ Please be aware that i3 is primarily targeted at advanced users and developers.
 %exclude %{_docdir}/%{base_name}/
 
 %changelog
+* Mon Dec 13 2021 Fuhrmann <fuhrmanns+copr@gmail.com> - 4.20.1-8
+- 4.20.1
+
 * Tue Nov 24 2020 Fuhrmann <fuhrmanns+copr@gmail.com> - 4.19-7
 - 4.19
 
